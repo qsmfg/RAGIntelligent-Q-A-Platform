@@ -1,0 +1,52 @@
+# ====== Python ======
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ====== 虚拟环境 ======
+edurag_env/
+.venv/
+venv/
+env/
+
+# ====== 配置文件（含敏感信息） ======
+config.ini
+
+# ====== 日志 ======
+logs/
+*.log
+
+# ====== Docker 数据 ======
+volumes/
+
+# ====== IDE ======
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ====== 前端 ======
+frontend/node_modules/
+frontend/dist/
+
+# ====== 模型文件（体积过大） ======
+rag_qa/models/
+rag_qa/nlp_bert_document-segmentation_chinese-base/pytorch_model.bin
+rag_qa/core/bert_query_classifier/model.safetensors
+
+# ====== 临时/调试文件 ======
+review.py
+_test_suite.py
+diag_bm25.py
+diag_model.py
+rag_test.py
+rag_test_out.txt
+server_out.txt
+test_ws.py
+
+# ====== OS ======
+.DS_Store
+Thumbs.db
